@@ -1,0 +1,53 @@
+div.center {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+}
+div.ul.players {
+  list-style: none;
+}
+div > ul.players > li {
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  background-color: rgb(50, 50, 62);
+
+  font-size: 1.4em;
+}
+div > ul.players > li button {
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  border: unset;
+
+  cursor: pointer;
+  background-color: rgb(239, 117, 117);
+  color: white;
+
+  font-family: poppins-bold, sans-serif;
+}
+
+footer input,
+footer button {
+  height: 5em;
+}
+footer input {
+  width: 80%;
+  padding: 1em 2em;
+  font-size: 1.1em;
+
+  background-color: rgb(103, 102, 112);
+  border: unset;
+  color: white;
+}
+footer input::placeholder {
+  color: white;
+}
+footer button {
+  width: 10%;
+  font-size: 1.1em;
+  cursor: pointer;
+}
